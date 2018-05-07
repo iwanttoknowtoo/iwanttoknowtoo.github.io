@@ -1,0 +1,50 @@
+html {
+  font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family:  'Libre Baskerville', serif; /* this should be the rest of the output you got from Google fonts */
+}
+
+h1 { /* heading 1 */
+  font-size: 40px;
+  text-align: center;
+}
+
+h3 { /* heading 2 */
+  font-size: 20px;
+  text-align: center;
+}
+
+p, li { /* lõigud ja nimekirjad */
+  font-size: 14px;   
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+a:hover { /* lingid kui nende kohal hiirega */
+  color: chocolate;
+  font-size: 16px;
+}
+
+html {
+  background-color: #CCEAEA;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto; /* auto - võrdselt vasakult ja paremalt */
+  background-color: #f5ff00;
+  padding: 0 20px 20px 20px; /* top, right, bottom, left */
+  border: 2px solid #0058ff; 
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;    
+  color: #69baed;
+  text-shadow: 4px 4px 2px #2714be;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #0058ff; 
+}
